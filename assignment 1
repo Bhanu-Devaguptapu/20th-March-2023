@@ -1,0 +1,17 @@
+#include<stdio.h>
+int bigger(int a,int b);
+int main()
+{
+	int n, m;
+	scanf("%d %d",&n,&m);
+	int big = bigger(n,m);
+	printf(" Bigger value = %d",big);
+}
+int bigger(int a,int b)
+{
+	int l;
+	if(a>b)
+	return a;
+	else
+	return b;
+}

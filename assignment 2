@@ -1,0 +1,19 @@
+#include<stdio.h>
+int sum(int n);
+int main()
+{
+	int m,res;
+	scanf("%d",&m);
+	res=sum(m);
+	printf("Even sum =%d",res);
+}
+int sum(int n)
+{
+	int s;
+	if(n==2)
+	return n;
+	else{
+		s=n*(n+1);
+		return s;
+	}
+}
